@@ -1,7 +1,13 @@
 [package]
 name = "into_enum"
 version = "0.1.0"
+authors = ["Subserial"]
 edition = "2021"
+description = "Rust macro to generate trivial From impls"
+repository = "https://github.com/Subserial/into_enum"
+license = "MIT-CMU"
+keywords = ["enum", "derive", "from", "into"]
+categories = ["data-structures"]
 
 [lib]
 proc-macro = true
